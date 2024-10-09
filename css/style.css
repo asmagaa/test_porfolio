@@ -1,0 +1,313 @@
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #333;
+	font-family: 'jetbrains mono';
+	width: 100%;
+	height: 100%;
+}
+
+img {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.picture {
+	position: relative;
+	background-color: lightblue;
+}
+
+h2 {
+	color: #fff;
+	font-weight: bold;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
+.line-header {
+	background-color: black;
+	width: 100%;
+	height: 100%;
+}
+
+.line-header p {
+	font-size: 36px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 75px;
+	transition: transform 0.3s, color 0.3s;
+	cursor: default;
+}
+
+.line-header span {
+	color: royalblue;
+	transition: color 0.8s;
+}
+
+.line-header p:hover {
+	transform: scale(1.3);
+	color: royalblue;
+}
+
+.line-header span:hover {
+	color: tomato;
+}
+
+nav {
+	position: sticky;
+	top: 0;
+	height: 60px;
+	line-height: 60px;
+	background-color: rgb(0, 0, 0);
+	text-align: center;
+	z-index: 10;
+}
+
+a {
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	transition: color 0.3s;
+}
+
+a:hover {
+	color: royalblue;
+}
+
+.burger-icon {
+	position: absolute;
+	display: block;
+	margin-left: auto;
+	padding: 0 30px;
+	line-height: 60px;
+	font-size: 30px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	transition: color 0.3s;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.burger-icon:hover {
+	color: royalblue;
+}
+
+.nav-items {
+	display: none;
+}
+
+.section-title {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+section {
+	scroll-margin-top: 60px;
+}
+
+.contact {
+	text-align: center;
+	line-height: 35px;
+}
+
+.contact h3 {
+	text-transform: uppercase;
+	margin: 20px 0 5px;
+	color: #fff;
+}
+
+.line {
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%);
+	height: 2px;
+	width: 60%;
+	background-color: #ffffff;
+}
+
+.icon {
+	color: royalblue;
+}
+
+main {
+	margin: 60px 30px;
+}
+
+main a {
+	color: #fff;
+	font-size: 24px;
+}
+
+.aands {
+	background-color: royalblue;
+	width: 700px;
+	height: 255px;
+	border-radius: 50px;
+}
+
+.questions {
+	background-color: royalblue;
+	width: 700px;
+	height: 255px;
+	border-radius: 50px;
+}
+
+.questions-info {
+	margin-bottom: 10px;
+	padding: 0 20px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.abilities-info {
+	margin-bottom: 10px;
+	padding: 0 20px;
+	font-size: 18px;
+	color: #fff;
+}
+
+.footer {
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.footer,
+p {
+	text-align: center;
+	color: #fff;
+}
+
+@media (min-width: 400px) {
+	.questions {
+		background-color: royalblue;
+		width: 300px;
+		height: 220px;
+		border-radius: 50px;
+	}
+
+	.questions-info {
+		margin-bottom: 10px;
+		padding: 0 20px;
+		font-size: 11px;
+		color: #fff;
+	}
+}
+
+@media (min-width: 576px) {
+	.line-header p {
+		font-size: 24px;
+	}
+
+	.questions {
+		background-color: royalblue;
+		width: 300px;
+		height: 220px;
+		border-radius: 50px;
+	}
+
+	.questions-info {
+		margin-bottom: 10px;
+		padding: 0 20px;
+		font-size: 11px;
+		color: #fff;
+	}
+}
+
+@media (min-width: 768px) {
+	.burger-icon {
+		display: none;
+		color: aqua;
+	}
+
+	.nav-items {
+		display: block;
+	}
+
+	.nav-items a {
+		padding: 0 30px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #fff;
+		transition: color 0.3s;
+		letter-spacing: 2px;
+	}
+
+	.nav-items a:hover {
+		color: royalblue;
+	}
+
+	.questions {
+		background-color: royalblue;
+		width: 300px;
+		height: 220px;
+		border-radius: 50px;
+	}
+
+	.questions-info {
+		margin-bottom: 10px;
+		padding: 0 20px;
+		font-size: 11px;
+		color: #fff;
+	}
+}
+
+@media (min-width: 992px) {
+	.questions {
+		background-color: royalblue;
+		width: 700px;
+		height: 255px;
+		border-radius: 50px;
+	}
+	
+	.questions-info {
+		margin-bottom: 10px;
+		padding: 0 20px;
+		font-size: 20px;
+		color: #fff;
+	}
+}
+
+@media (min-width: 1200px) {
+	.questions {
+		background-color: royalblue;
+		width: 700px;
+		height: 255px;
+		border-radius: 50px;
+	}
+	
+	.questions-info {
+		margin-bottom: 10px;
+		padding: 0 20px;
+		font-size: 20px;
+		color: #fff;
+	}
+}
