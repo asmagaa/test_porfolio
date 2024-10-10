@@ -184,13 +184,6 @@ main a {
 	color: #fff;
 }
 
-.abilities-info {
-	margin-bottom: 10px;
-	padding: 0 20px;
-	font-size: 18px;
-	color: #fff;
-}
-
 .footer {
 	font-size: 24px;
 	text-transform: uppercase;
@@ -220,17 +213,17 @@ p {
 		color: #fff;
 	}
 
-	.abilities-info {
-		margin-bottom: 10px;
-		padding: 0 20px;
-		font-size: 10px;
-		color: #fff;
+	.section-title {
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 15px;
 	}
 }
 
 @media (min-width: 576px) {
 	.line-header p {
-		font-size: 24px;
+		font-size: 20px;
 	}
 
 	.questions {
@@ -243,15 +236,15 @@ p {
 	.questions-info {
 		margin-bottom: 10px;
 		padding: 0 20px;
-		font-size: 11px;
+		font-size: 9px;
 		color: #fff;
 	}
 
-	.abilities-info {
-		margin-bottom: 10px;
-		padding: 0 20px;
-		font-size: 10px;
-		color: #fff;
+	.section-title {
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 15px;
 	}
 }
 
@@ -289,15 +282,15 @@ p {
 	.questions-info {
 		margin-bottom: 10px;
 		padding: 0 20px;
-		font-size: 11px;
+		font-size: 9px;
 		color: #fff;
 	}
 
-	.abilities-info {
-		margin-bottom: 10px;
-		padding: 0 20px;
-		font-size: 10px;
-		color: #fff;
+	.section-title {
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 15px;
 	}
 }
 
@@ -316,11 +309,11 @@ p {
 		color: #fff;
 	}
 
-	.abilities-info {
-		margin-bottom: 10px;
-		padding: 0 20px;
-		font-size: 18px;
-		color: #fff;
+	.section-title {
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 15px;
 	}
 }
 
@@ -339,10 +332,10 @@ p {
 		color: #fff;
 	}
 
-	.abilities-info {
-		margin-bottom: 10px;
-		padding: 0 20px;
-		font-size: 18px;
-		color: #fff;
+	.section-title {
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 15px;
 	}
 }
