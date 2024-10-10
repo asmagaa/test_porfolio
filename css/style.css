@@ -219,6 +219,13 @@ p {
 		font-size: 11px;
 		color: #fff;
 	}
+
+	.abilities-info {
+		margin-bottom: 10px;
+		padding: 0 20px;
+		font-size: 10px;
+		color: #fff;
+	}
 }
 
 @media (min-width: 576px) {
@@ -237,6 +244,13 @@ p {
 		margin-bottom: 10px;
 		padding: 0 20px;
 		font-size: 11px;
+		color: #fff;
+	}
+
+	.abilities-info {
+		margin-bottom: 10px;
+		padding: 0 20px;
+		font-size: 10px;
 		color: #fff;
 	}
 }
@@ -278,6 +292,13 @@ p {
 		font-size: 11px;
 		color: #fff;
 	}
+
+	.abilities-info {
+		margin-bottom: 10px;
+		padding: 0 20px;
+		font-size: 10px;
+		color: #fff;
+	}
 }
 
 @media (min-width: 992px) {
@@ -294,6 +315,13 @@ p {
 		font-size: 20px;
 		color: #fff;
 	}
+
+	.abilities-info {
+		margin-bottom: 10px;
+		padding: 0 20px;
+		font-size: 18px;
+		color: #fff;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -308,6 +336,13 @@ p {
 		margin-bottom: 10px;
 		padding: 0 20px;
 		font-size: 20px;
+		color: #fff;
+	}
+
+	.abilities-info {
+		margin-bottom: 10px;
+		padding: 0 20px;
+		font-size: 18px;
 		color: #fff;
 	}
 }
